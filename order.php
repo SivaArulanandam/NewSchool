@@ -1,7 +1,7 @@
 <html>
 <body>
     <?php
-    $db = pg_connect('ec2-54-147-126-202.compute-1.amazonaws.com dbname=defa7p4eknp4ra user=lbburibyykcqgn password=71d893e494fee2d03a586734e4d5c73d724f7fc577fd8c041a5dbb34f46dd1f9');
+    $db = pg_connect('ec2-18-211-86-133.compute-1.amazonaws.com dbname=dar301jpdvtmma user=swvepilfwgnvop password=cb01cc33ae803c8c4e317963ad4fc29d1824d0fc913d2b76adb48bfcf522b97');
 
     $firstname = pg_escape_string($_POST['firstname']);
     $surname = pg_escape_string($_POST['surname']);
